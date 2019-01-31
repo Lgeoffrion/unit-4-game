@@ -7,6 +7,18 @@ $("#beastNumber").text("Number Of The Beast: " + beastNumber);
 
 console.log (beastNumber);
 //****if time change photo based on random number generate for beast****
+var image = new Array ();
+image[0] = "assets/images/blueDragon.jpeg";
+image[1] = "assets/images/bronzeDragon.jpeg";
+image[2] = "assets/images/lizardMonster.jpg";
+image[3] = "assets/images/skeletonKnight.png";
+image[4] = "assets/images/turtleFighter.png";
+image[5] = "assets/images/undeadDragon.jpg";
+var monster = image.length
+console.log (image.length);
+var m = Math.floor(monster*Math.random())
+$('#beastPic').attr('src',image[m]);
+
 
 //assign numbers to the weapon buttons
 var button1 = Math.floor(Math.random() * 12) + 1;
@@ -20,6 +32,7 @@ console.log (button1, button2, button3, button4);
 var totalScore = 0;
 var wins = 0;
 var losses = 0;
+
 
 
 //add wins and losses
@@ -38,6 +51,8 @@ button2 = Math.floor(Math.random() * 12) + 1;
 button3 = Math.floor(Math.random() * 12) + 1;
 button4 = Math.floor(Math.random() * 12) + 1;
 console.log (button1, button2, button3, button4);
+var m = Math.floor(monster*Math.random())
+$('#beastPic').attr('src',image[m]);
 }
 
 function winner(){
