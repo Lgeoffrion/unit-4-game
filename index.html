@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game 4 | Defeat the Beast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="row gameName">
+            <div class="col-lg-7 colSection">
+                <div id="gameNameDiv">
+                    <h1 class="gameNameH1">---Defeat the Beast!---</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row instructionRow">
+            <div class="col-lg-7 colSection">
+                <div id="instructions">
+                    <p>A random number will be displayed at the start of the game.</p>
+                    <p>There are four weapons below. By clicking on a weapon you will add a specific amount of
+                        points to your total score.</p>
+                    <p>You defeat the beast and win by matching your total score to the Number of the Beast. You
+                        are eaten by the beast and lose the game if your total score goes above the Number of the Beast.</p>
+                    <p>The value of each weapon is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the value of each weapon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row randomNumberArea">
+            <div class="col-lg-4 colSection">
+                <div id="theBeast">
+                    <div>
+                        <!-- random target number -->
+                        <div id="beastNumber"></div>
+                        <img src="assets/images/bronzeDragon.jpeg" id="beastPic" alt="button1">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 colSection">
+                <div>
+                    <!-- wins and losses-->
+                    <div class="winDiv">Wins</div>
+                    <div id="wins"></div>
+                    <div class="winDiv">Losses</div>
+                    <div id="losses"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row weaponsArea">
+            <div class="col-lg-7 colSection2">
+                <!-- Buttons go here -->
+                <div id="buttonsDiv">
+                    <img src="assets/images/necroSword.jpeg" id="buttonPic1" class="buttonPicture" alt="button1">
+                    <img src="assets/images/jewelSword.jpeg" id="buttonPic2" class="buttonPicture" alt="button2">
+                    <img src="assets/images/forkSword.jpeg" id="buttonPic3" class="buttonPicture" alt="button3">
+                    <img src="assets/images/blackSword.jpeg" id="buttonPic4" class="buttonPicture" alt="button4">
+                </div>
+            </div>
+        </div>
+        <!-- score area -->
+        <div class="row scoreArea">
+            <div class="col-lg-7 colSection">
+                <div id="totalScoreDiv">Your Total Score Is:</div>
+            </div>
+            <div class="col-lg-5"> </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

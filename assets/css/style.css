@@ -1,0 +1,42 @@
+/* Google font family font-family: 'Berkshire Swash', cursive; */
+
+
+
+#container{
+    padding: 25px;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 18px;
+    color: rgb(187, 139, 77);
+}
+
+
+.buttonPicture {
+    width: 150px;
+    height: 150px;
+    border: outset 8px rgb(187, 139, 77);
+    margin: 3px;
+}
+
+#beastPic{
+    width: 225px;
+    height: 225px;
+}
+
+.row{
+    margin: 10px;
+}
+
+.colSection{
+    border: solid 2px rgb(187, 139, 77);
+}
+
+.gameNameH1{
+    text-align: center;
+}
+
+.winDiv, #theBeast{
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+
+
