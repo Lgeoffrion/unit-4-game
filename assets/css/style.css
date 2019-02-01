@@ -1,6 +1,12 @@
 /* Google font family font-family: 'Berkshire Swash', cursive; */
 
+body{
+    background-image: url(../images/parchmentBackground.jpeg);
+}
 
+#instructions{
+    background-color: white;
+}
 
 #container{
     padding: 25px;
@@ -23,11 +29,12 @@
 }
 
 .row{
-    margin: 10px;
+    padding: 10px;
 }
 
 .colSection{
-    border: solid 2px rgb(187, 139, 77);
+    border: outset 8px rgb(187, 139, 77);
+    background-color: white;
 }
 
 .gameNameH1{
